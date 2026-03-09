@@ -110,12 +110,6 @@ export const translations = {
       fr: 'Voir Comment Ça Marche',
       ar: 'شاهد كيف يعمل',
     },
-    trustedBy: {
-      en: 'Trusted by 50+ elite agents across Europe',
-      de: 'Vertraut von über 50 Elite-Maklern in Europa',
-      fr: 'Fait confiance par plus de 50 agents d\'élite en Europe',
-      ar: 'موثوق به من قبل أكثر من 50 وكيلاً متميزاً في أوروبا',
-    },
     zeroLostLeads: {
       en: '0% Lost Leads — Every inquiry handled',
       de: '0% Verlorene Leads — Jede Anfrage bearbeitet',
@@ -1461,119 +1455,6 @@ export const translations = {
   },
 
   // ============================================
-  // TESTIMONIALS SECTION
-  // ============================================
-  testimonials: {
-    label: {
-      en: 'Trusted by Europe\'s Elite',
-      de: 'Vertraut von Europas Elite',
-      fr: 'Fait Confiance par l\'Élite Européenne',
-      ar: 'موثوق به من نخبة أوروبا',
-    },
-    title: {
-      en: 'Real Agents.',
-      de: 'Echte Makler.',
-      fr: 'Vrais Agents.',
-      ar: 'وكلاء حقيقيون.',
-    },
-    titleHighlight: {
-      en: 'Real Results.',
-      de: 'Echte Ergebnisse.',
-      fr: 'Vrais Résultats.',
-      ar: 'نتائج حقيقية.',
-    },
-    quotes: {
-      marcus: {
-        quote: {
-          en: "In Germany, the market has shifted. Buyers are hesitant. Before immobee24, I spent my weekends chasing documents and qualifying financing manually. Now, the AI handles the 'German Bureaucracy' while I focus on the handshake. It brings Porsche-level precision to my agency.",
-          de: "In Deutschland hat sich der Markt verändert. Käufer sind zögerlich. Vor immobee24 verbrachte ich meine Wochenenden mit der Jagd nach Dokumenten und der manuellen Finanzierungsqualifikation. Jetzt kümmert sich die KI um die 'deutsche Bürokratie', während ich mich auf den Handschlag konzentriere. Es bringt Porsche-Präzision in meine Agentur.",
-          fr: "En Allemagne, le marché a changé. Les acheteurs hésitent. Avant immobee24, je passais mes week-ends à chasser les documents et à qualifier le financement manuellement. Maintenant, l'IA gère la 'Bureaucratie Allemande' pendant que je me concentre sur la poignée de main. Cela apporte une précision de niveau Porsche à mon agence.",
-          ar: "في ألمانيا، تغير السوق. المشترون مترددون. قبل immobee24، كنت أقضي عطلات نهاية الأسبوع في ملاحقة المستندات وتأهيل التمويل يدوياً. الآن، الذكاء الاصطناعي يتعامل مع 'البيروقراطية الألمانية' بينما أركز على المصافحة. إنه يجلب دقة بمستوى بورشه لوكالتي.",
-        },
-        name: 'Marcus Weber',
-        title: {
-          en: 'Senior Broker',
-          de: 'Senior Makler',
-          fr: 'Courtier Senior',
-          ar: 'وسيط أول',
-        },
-        location: 'Berlin-Charlottenburg',
-        metric: {
-          en: '+6 deals/year',
-          de: '+6 Deals/Jahr',
-          fr: '+6 transactions/an',
-          ar: '+6 صفقات/سنة',
-        },
-      },
-      sophie: {
-        quote: {
-          en: "Paris real estate moves at the speed of light. If you miss a SeLoger lead by 10 minutes, they're gone. immobee24 gives me an unfair advantage. It answers instantly, nurtures perfectly, and hands me a ready-to-sign client. It feels less like software and more like a superpower.",
-          de: "Pariser Immobilien bewegen sich mit Lichtgeschwindigkeit. Wenn Sie einen SeLoger-Lead um 10 Minuten verpassen, sind sie weg. immobee24 gibt mir einen unfairen Vorteil. Es antwortet sofort, pflegt perfekt und übergibt mir einen unterschriftsbereiten Kunden. Es fühlt sich weniger wie Software an und mehr wie eine Superkraft.",
-          fr: "L'immobilier parisien va à la vitesse de la lumière. Si vous manquez un prospect SeLoger de 10 minutes, il est parti. immobee24 me donne un avantage déloyal. Il répond instantanément, nourrit parfaitement et me remet un client prêt à signer. C'est moins un logiciel qu'un super-pouvoir.",
-          ar: "العقارات في باريس تتحرك بسرعة الضوء. إذا فاتك عميل SeLoger بـ10 دقائق، فقد رحل. immobee24 يمنحني ميزة غير عادلة. يجيب فوراً، يرعى بشكل مثالي، ويسلمني عميلاً جاهزاً للتوقيع. يبدو أقل كبرنامج وأكثر كقوة خارقة.",
-        },
-        name: 'Sophie Dubois',
-        title: {
-          en: 'Luxury Agent',
-          de: 'Luxusmakler',
-          fr: 'Agent Luxe',
-          ar: 'وكيل فاخر',
-        },
-        location: {
-          en: 'Paris - 16th Arrondissement',
-          de: 'Paris - 16. Arrondissement',
-          fr: 'Paris - 16ème Arrondissement',
-          ar: 'باريس - الدائرة 16',
-        },
-        metric: {
-          en: '€140K+ extra',
-          de: '€140K+ extra',
-          fr: '€140K+ supplémentaire',
-          ar: '+140 ألف يورو إضافية',
-        },
-      },
-    },
-    stats: {
-      betaAgents: {
-        value: '50+',
-        label: {
-          en: 'Beta Agents',
-          de: 'Beta-Makler',
-          fr: 'Agents Bêta',
-          ar: 'وكلاء تجريبيون',
-        },
-      },
-      churnRate: {
-        value: '<2%',
-        label: {
-          en: 'Churn Rate',
-          de: 'Abwanderungsrate',
-          fr: 'Taux de Désabonnement',
-          ar: 'معدل المغادرة',
-        },
-      },
-      satisfaction: {
-        value: '4.9/5',
-        label: {
-          en: 'Satisfaction',
-          de: 'Zufriedenheit',
-          fr: 'Satisfaction',
-          ar: 'الرضا',
-        },
-      },
-      coverage: {
-        value: '24/7',
-        label: {
-          en: 'AI Coverage',
-          de: 'KI-Abdeckung',
-          fr: 'Couverture IA',
-          ar: 'تغطية الذكاء الاصطناعي',
-        },
-      },
-    },
-  },
-
-  // ============================================
   // CTA SECTION
   // ============================================
   cta: {
@@ -1650,10 +1531,10 @@ export const translations = {
   // ============================================
   urgency: {
     message: {
-      en: 'Beta closes Feb 28 — Only 12 spots remaining!',
-      de: 'Beta endet am 28. Feb — Nur noch 12 Plätze!',
-      fr: 'Beta ferme le 28 fév — Plus que 12 places !',
-      ar: 'ينتهي الاشتراك التجريبي في 28 فبراير — 12 مكاناً متبقياً فقط!',
+      en: 'Beta closes April 28 — Only 12 spots remaining!',
+      de: 'Beta endet am 28. April — Nur noch 12 Plätze!',
+      fr: 'Beta ferme le 28 avril — Plus que 12 places !',
+      ar: 'ينتهي الاشتراك التجريبي في فبراير — 12 مكاناً متبقياً فقط!',
     },
     cta: {
       en: 'Claim Spot',
