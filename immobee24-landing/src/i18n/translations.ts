@@ -3,6 +3,7 @@
 
 export type Language = 'en' | 'de' | 'fr' | 'ar';
 
+
 export const translations = {
   // ============================================
   // HEADER & NAVIGATION

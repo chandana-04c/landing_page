@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { useLanguage, languageOptions } from './i18n';
 import type { Language } from './i18n';
+import { useHashPageviews, trackEvent } from './lib/analytics';
 import {
   ArrowRight,
   Calendar,
@@ -1194,6 +1195,7 @@ const Header = () => {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
+    trackEvent('nav_click', { section: href.replace('#', ''), href });
   };
 
   const handleCTAClick = () => {
@@ -3338,6 +3340,7 @@ const WhatsAppWidget = () => {
 // ============================================
 
 function App() {
+  useHashPageviews();
   return (
     <div className="min-h-screen antialiased">
       {/* Honeycomb pattern overlay for visual texture */}

@@ -1,5 +1,6 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { Language, translations } from './translations';
+import { trackEvent } from '../lib/analytics';
 
 interface LanguageContextType {
   language: Language;
@@ -28,6 +29,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     // Update document direction for RTL support
     document.documentElement.dir = isRTL ? 'rtl' : 'ltr';
     document.documentElement.lang = language;
+    trackEvent('language_change', { language });
   }, [language, isRTL]);
 
   // Translation function that navigates nested objects
