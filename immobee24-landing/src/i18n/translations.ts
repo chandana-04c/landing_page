@@ -1532,10 +1532,10 @@ export const translations = {
   // ============================================
   urgency: {
     message: {
-      en: 'Beta closes April 28 — Only 12 spots remaining!',
-      de: 'Beta endet am 28. April — Nur noch 12 Plätze!',
-      fr: 'Beta ferme le 28 avril — Plus que 12 places !',
-      ar: 'ينتهي الاشتراك التجريبي في فبراير — 12 مكاناً متبقياً فقط!',
+      en: 'Beta closes June 15 — Only 12 spots remaining!',
+      de: 'Beta endet am 15. Juni — Nur noch 12 Plätze!',
+      fr: 'Beta ferme le 15 juin — Plus que 12 places !',
+      ar: 'ينتهي الاشتراك التجريبي في 15 يونيو — 12 مكاناً متبقياً فقط!',
     },
     cta: {
       en: 'Claim Spot',
